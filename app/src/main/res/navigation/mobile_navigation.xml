@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="sn.thiare.portfolio.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="sn.thiare.portfolio.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="sn.thiare.portfolio.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_slideshow2"
+        android:name="sn.thiare.portfolio.ui.slideshow.SlideshowFragment"
+        android:label="Menu_centre_interet"
+        tools:layout="@layout/fragment_slideshow2" />
+    <fragment
+        android:id="@+id/nav_slash"
+        android:name="sn.thiare.portfolio.ui.slideshow.SlideshowFragment"
+        tools:layout="@layout/fragment_slash" >
+        <action
+            android:id="@+id/action_nav_slash_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>

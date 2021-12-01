@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="A PROPOS\n"
+                android:textAlignment="center"
+                android:textColor="#55B3A6"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:translationY="40dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Passionné de l’informatique et de la nouvlles\n technologie depuis toujours, le monde du\n developpement web et mobile est ma\n domaine de prédilections. Autodidacte, \n crieux et rigoureux, je m’adapte en toute\n circonstance\n\n "
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textIsSelectable="false"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aptitudes"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/propos"
+                android:paddingTop="40dp"
+                android:text="Crieux\n Autonomie\n Perceverence \nCapacite d’adaptation\n Sens de travail en equipe\n Sens de la communication \n\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textIsSelectable="false"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Centre d’interet"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/propos"
+                android:paddingTop="40dp"
+                android:text="Sport \n Lecture\n Bricolage\n Jeux video\n Chant / Danse\n\n"
+                android:textAlignment="center"
+
+                android:textColor="#000000"
+                android:textIsSelectable="false"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

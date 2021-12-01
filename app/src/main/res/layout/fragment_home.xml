@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="356dp"
+                app:srcCompat="@drawable/img_portfolio"
+                tools:src="@drawable/img_portfolio" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Hey, je suis \n  Mohamed THIARE \n  Developpeur Web et Mobile"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:translationY="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="32dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    tools:ignore="ImageContrastCheck"
+                    tools:src="@drawable/github"
+                    tools:srcCompat="@drawable/github" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Githup"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="32dp"
+                    android:layout_height="17dp"
+                    android:layout_weight="1"
+                    tools:srcCompat="@drawable/twitter" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Twitter"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="32dp"
+                    android:layout_height="17dp"
+                    android:layout_weight="1"
+                    tools:srcCompat="@drawable/linkedin" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Linkedin"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="32dp"
+                    android:layout_height="19dp"
+                    android:layout_weight="1"
+                    tools:srcCompat="@drawable/svg_homeicon" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Discord"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:orientation="horizontal"
+                android:translationY="20dp">
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_weight="1"
+                    android:autoText="false"
+                    android:insetLeft="10dp"
+                    android:insetTop="10dp"
+                    android:insetRight="10dp"
+                    android:insetBottom="10dp"
+                    android:text="Telecharger CV"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    app:backgroundTint="#55B3A6"
+                    app:cornerRadius="30dp" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:insetLeft="10dp"
+                    android:insetTop="10dp"
+                    android:insetRight="10dp"
+                    android:insetBottom="10dp"
+                    android:text="Me contacter"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    app:backgroundTint="#F13B23"
+                    app:cornerRadius="30dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formations\n"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#55B3A6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="185dp"
+                android:background="@drawable/formation"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="INformatique de gestion \n"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#55B3A6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="206dp"
+                        android:layout_height="39dp"
+                        android:text="ENsup Afrique"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textIsSelectable="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="39dp"
+                        android:text="2018 / 2021"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textIsSelectable="false"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="201dp"
+                android:background="@drawable/formation"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="27dp"
+                    android:layout_weight="1"
+                    android:paddingTop="50dp"
+                    android:text="Developpeur web / Web Mobile \n"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#55B3A6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="39dp"
+                        android:text="ENsup Afrique"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textIsSelectable="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="39dp"
+                        android:text="2018 / 2021"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textIsSelectable="false"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="\n Dilpomes"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#55B3A6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/formation"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+                    android:paddingTop="50dp"
+                    android:text="BEFM \n"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#55B3A6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="251dp"
+                        android:layout_height="wrap_content"
+                        android:text="College Therno\n Souleyemane AGNE\n TAMBACOUNDA"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textIsSelectable="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="128dp"
+                        android:layout_height="37dp"
+                        android:text="2013 / 2014"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textIsSelectable="false"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:background="@drawable/formation"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="50dp"
+                    android:text="BAC L"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#55B3A6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="244dp"
+                        android:layout_height="wrap_content"
+                        android:text="Lycée Valdiondio\n NDIAYE\n KAOLACK"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textIsSelectable="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="37dp"
+                        android:text="2017/ 2018"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textIsSelectable="false"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
