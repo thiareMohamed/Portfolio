@@ -27,12 +27,4 @@
         android:name="sn.thiare.portfolio.ui.blank.BlankFragment"
         android:label="@string/menu_interet"
         tools:layout="@layout/blank_fragment" />
-    <fragment
-        android:id="@+id/nav_slash"
-        android:name="sn.thiare.portfolio.ui.slideshow.SlideshowFragment"
-        tools:layout="@layout/fragment_slash" >
-        <action
-            android:id="@+id/action_nav_slash_to_nav_home"
-            app:destination="@id/nav_home" />
-    </fragment>
 </navigation>
