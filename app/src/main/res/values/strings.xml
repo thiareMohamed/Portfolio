@@ -10,6 +10,6 @@
     <string name="menu_home">Accueil</string>
     <string name="menu_gallery">Competences</string>
     <string name="menu_slideshow">Experiences</string>
-    <string name="Menu_centre_interet">Centre d\'interet</string>
+    <string name="menu_interet">Centre d\'interet</string>
 
 </resources>

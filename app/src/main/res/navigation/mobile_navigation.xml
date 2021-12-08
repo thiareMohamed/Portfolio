@@ -23,10 +23,10 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
-        android:id="@+id/nav_slideshow2"
-        android:name="sn.thiare.portfolio.ui.slideshow.SlideshowFragment"
-        android:label="Menu_centre_interet"
-        tools:layout="@layout/fragment_slideshow2" />
+        android:id="@+id/blank"
+        android:name="sn.thiare.portfolio.ui.blank.BlankFragment"
+        android:label="@string/menu_interet"
+        tools:layout="@layout/blank_fragment" />
     <fragment
         android:id="@+id/nav_slash"
         android:name="sn.thiare.portfolio.ui.slideshow.SlideshowFragment"
